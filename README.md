@@ -53,7 +53,7 @@ We use jQuery because it's:
 - Convenient: solves problems developers commonly face.
 - Less Buggy: ensures javascript DOM manipulation works the same, cross-browser.
 - Modern: brings javascript DOM manipulation into the 21st century.
-- Popular: 15.3% of all sites and 70.4% of the top 100k sites use jQuery! (see Builtwith.com).
+- Popular: 75.9% of the top 100k sites use jQuery! (see [builtwith.com](https://trends.builtwith.com/javascript/jQuery)).
 
 Sites like: css-tricks.com and jquery.com (!) include the jQuery library on their page. This means all you have to do is open up your Chrome Developer Console on one of those sites, and you can start playing with jQuery on the page!
 
@@ -66,7 +66,7 @@ To do this, we have two options:
 
   The quickest way to include jQuery in your project is to grab the jQuery library using a "CDN" (a blazing fast "content delivery network") and dropping it into a script tag in the head of your html (just google "jQuery cdn" and copy paste!):
 
-  Any script tags for your own JavaScript files must come after the script tag for jQuery.
+  **Any script tags for your own JavaScript files must come after the script tag for jQuery.**
 
 
 ``` html
